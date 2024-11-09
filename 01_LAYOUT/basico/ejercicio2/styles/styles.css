@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url(styleA.css);
+
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --primary-color: #cfe800;
+  --background-color: #090715;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+  padding: 16px;
+}
+.card {
+  width: 60%;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.buttons-wrap {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+
+  button {
+    padding: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--background-color);
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px var(--primary-color);
+
+    &:hover {
+      box-shadow: -2px -2px 5px var(--primary-color);
+      background-color: color-mix(in srgb, var(--primary-color) 80%, white 20%);
+      color: color-mix(in srgb, var(--background-color) 80%, black 20%);
+      cursor: pointer;
+    }
+  }
+}
