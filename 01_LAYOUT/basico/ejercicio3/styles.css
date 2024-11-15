@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-/* Estilos generales */
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -22,6 +21,7 @@ body {
   font-style: normal;
   color: var(--primary-color);
   min-width: 375px;
+  padding: 32px;
 }
 
 h1 {
