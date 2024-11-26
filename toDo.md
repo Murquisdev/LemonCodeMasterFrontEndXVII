@@ -1,4 +1,7 @@
-[ X ] Buscar paleta colores página principal
+- [ X ] Buscar paleta colores página principal
 
-[ ] Corregir index.html en módulo 00
-[ ] Corregir index.html en módulo 01
+- [ X ] Cambiar el readme principal
+
+- [ ] Corregir index.html en módulo 00
+
+- [ ] Corregir index.html en módulo 01
